@@ -12,6 +12,7 @@
 using namespace std;
 
 // Note: Changed all the function arguments to pass by reference
+// Note: Changed the make_pairs first arguments to always store the id of the vertex in the original graph rather than the current
 
 vector< vector< pair <long int,long int > > >  graph;						//The adjacency list representing the main graph
 //The merged_new and merged_old are now local
