@@ -11,6 +11,7 @@
 #include <queue>
 #include <set>
 #include <time.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 // HYPER PARAMETERS
