@@ -281,10 +281,13 @@ void refine(vector< vector< pair< long int, long int > > > &in_graph, vector< lo
 	long int counter = 0;
 	long int last_key = -1;
 
-	while(counter < 1)
+	while(counter < 5)
 	{
 		if(max_gain > 0){
 			counter = 0;
+		}
+		else if(max_gain == 0){
+			counter++;
 		}
 		else{
 			break;
